@@ -1,0 +1,90 @@
+.back-container{
+ position: relative;
+}
+
+.front-container{
+ position: absolute;
+ top:0;
+ left:0;
+ right: 0;
+}
+.front-container1{
+ position: absolute;
+ top:20px;
+ left:0;
+ right: 0;
+}
+
+table {
+	background-color: #EDEDED;
+}
+
+.row {
+	background-color: #EDEDED;
+}
+
+.chat-top{
+ background-color: #EDEDED;
+ min-height: 50px;
+}
+
+.profile-image{
+ margin-top: 7px;
+ height: 30px;
+ width: 30px;
+}
+
+.contacts{
+ background-color: #ffffff;
+ min-height: 600px;
+}
+
+.contact-table-scroll{
+ overflow-y: scroll;
+ height: 600px;
+}
+
+.message-area{
+ background-color:  #e4e1de;
+ min-height: 600px;
+}
+
+.message-table-scroll{
+ overflow-y: scroll;
+ height: 550px;
+}
+
+.message-box{
+ background-color: #F0F0F0;
+}
+
+.form {
+	width: 200px;
+}
+
+li {
+	cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+	list-style-type: none;
+	margin-top: 30px;
+	width: 200px;
+	background: #FFF;
+	text-align: center;
+    font-size: 18px;
+	transition: 0.2s;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+	border-radius: 10%;
+}
+*::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+	background: #aaa;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
